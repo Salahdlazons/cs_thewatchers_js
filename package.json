@@ -1,0 +1,23 @@
+{
+  "name": "projet_salah_watches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salahdlazons/cs_thewatchers_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salahdlazons/cs_thewatchers_js/issues"
+  },
+  "homepage": "https://github.com/Salahdlazons/cs_thewatchers_js#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1"
+  }
+}
