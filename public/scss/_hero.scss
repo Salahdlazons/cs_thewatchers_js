@@ -1,9 +1,10 @@
 .hero{
-    width:100%;
+    height: 500px;
+    
     display:flex;
-    position: absolute;
     
-    
+    margin-top: 30px;
+
     background-color:#f0f0f2;
 
 }
@@ -18,16 +19,41 @@
     width: 400px;
     left: 100px;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 300px;
     font-size: 15px;
     
 }
 
 .Watch_Hero{
-    height:500px;
-    width: 270px;
-    margin-left:230px;
+    height:100%;
+
+  
+    margin-left:170px;
+    
 }
 .btnhero{
-    margin-top:50px;
+    margin-top:30px;
+    border: none;
+    outline: none;
+    background-color: #4a4a4b;
+    color: #f1f1f1;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 30px;
+    width: 100px;
+}
+:hover .btnhero{
+    background-color: #ff2020;
+    transition: 1s;
+}
+@media (max-width :600px) { 
+    
+    .TextHero{
+        margin-left: 50px;
+    }
+    .Watch_Hero{
+        margin-left: 50px;
+    }
+    .btnhero{
+        margin-top: 5px;
+    }
 }

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    margin-top: 10px;
     gap: 20px;
     background-color: rgb(255, 255, 255);
     height: 50px;
@@ -59,7 +60,7 @@ a{
     }
     .D-M{
         display:flex;
-        justify-content:flex-start;
+        justify-content:left;
     }
     .hot{
         display:flex;
