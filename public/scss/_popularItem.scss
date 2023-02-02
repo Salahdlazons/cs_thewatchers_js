@@ -1,0 +1,49 @@
+.PopularItem{
+    margin-top: 150px;
+}
+.color{
+    color: #ada7b6;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family:'Roboto', sans-serif;
+}
+.PopularTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    width: 800px;
+}
+.PopularWatches{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    flex-direction:column;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.PopularWatches1{
+    display: flex;
+    gap: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.viewMore{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.viewMoreBtn{
+    height: 50px;
+    width: 200px;
+
+    background-color:  #ff2020;
+    color: white;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}

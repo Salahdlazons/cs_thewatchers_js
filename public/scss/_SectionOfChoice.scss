@@ -1,0 +1,77 @@
+.SectionChoice1{
+
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:80px;
+}
+.choice1{
+    width: 25%;
+    height:650px;
+    margin-left: 50px;
+
+    gap: 50px;
+}
+.ChoiceBtn1{
+    height: 50px;
+    width: 150px;
+    
+    background-color:  #ff2020;
+    border: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.TitleChoice1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.Pchoice1{
+    color: #ada7b6;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family:'Roboto', sans-serif;
+    margin-top: 30px; 
+}
+.ChoiceImg1{
+    margin-left: 100px;
+}
+//& 2
+.SectionChoice2{
+
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:20px;
+}
+.choice2{
+    width: 25%;
+    height:650px;
+    margin-left: 50px;
+    margin-top: 100px;
+    gap: 50px;
+}
+.ChoiceBtn2{
+    height: 50px;
+    width: 150px;
+    
+    background-color:  #ff2020;
+    border: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.TitleChoice2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.Pchoice2{
+    color: #ada7b6;
+    font-size: 18px;
+    margin-top: -20px;
+    font-family:'Roboto', sans-serif;
+    margin-top: 30px; 
+}
+.ChoiceImg2{
+    margin-right: 200px;
+}

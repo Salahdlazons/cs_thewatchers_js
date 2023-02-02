@@ -5,7 +5,6 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap%27");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap%27");
-@import url("./_galery.scss");
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900);
@@ -10521,13 +10520,13 @@ a {
   width: 400px;
   left: 100px;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 400px;
   font-size: 15px;
 }
 
 .Watch_Hero {
   height: 100%;
-  margin-left: 170px;
+  margin-left: 270px;
 }
 
 .btnhero {
@@ -10563,6 +10562,12 @@ a {
 
 .column {
   flex-direction: column;
+}
+
+.M-T {
+  margin-top: 450px;
+  display: flex;
+  justify-content: center;
 }
 
 .Sjs {
@@ -10615,4 +10620,196 @@ a {
     display: flex;
     flex-direction: column;
   }
+}
+.GaleryContainer {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 50px;
+  margin-top: 230px;
+}
+
+.galery1 {
+  width: 40%;
+}
+
+.galery01 {
+  height: 690px;
+  width: 100%;
+}
+
+.galery2 {
+  height: 700px;
+  width: 30%;
+}
+
+.galery03 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.galery3 {
+  height: 340px;
+}
+
+.galery4 {
+  height: 340px;
+}
+
+.PopularItem {
+  margin-top: 150px;
+}
+
+.color {
+  color: #ada7b6;
+  font-size: 18px;
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.PopularTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  width: 800px;
+}
+
+.PopularWatches {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.PopularWatches1 {
+  display: flex;
+  gap: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.viewMore {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.viewMoreBtn {
+  height: 50px;
+  width: 200px;
+  background-color: #ff2020;
+  color: white;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.SectionVideo {
+  width: 100%;
+  height: 770px;
+  margin-top: 100px;
+  background-color: aqua;
+}
+
+.SVbtn {
+  position: relative;
+  justify-content: space-evenly;
+  top: 535px;
+  height: 80px;
+  width: 300px;
+  background-color: #ff2020;
+  border: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.SectionChoice1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.choice1 {
+  width: 25%;
+  height: 650px;
+  margin-left: 50px;
+  gap: 50px;
+}
+
+.ChoiceBtn1 {
+  height: 50px;
+  width: 150px;
+  background-color: #ff2020;
+  border: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.TitleChoice1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.Pchoice1 {
+  color: #ada7b6;
+  font-size: 18px;
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+}
+
+.ChoiceImg1 {
+  margin-left: 100px;
+}
+
+.SectionChoice2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.choice2 {
+  width: 25%;
+  height: 650px;
+  margin-left: 50px;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.ChoiceBtn2 {
+  height: 50px;
+  width: 150px;
+  background-color: #ff2020;
+  border: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.TitleChoice2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.Pchoice2 {
+  color: #ada7b6;
+  font-size: 18px;
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+}
+
+.ChoiceImg2 {
+  margin-right: 200px;
 }
